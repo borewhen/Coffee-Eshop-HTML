@@ -1,0 +1,184 @@
+/* Main*/
+body {
+  background-color: #873e23;
+}
+h1 {
+    font-family: 'Avenir Roman', 'Arial Black', sans-serif;
+    font-size: 56px;
+    color: white;
+}
+h2 {
+    font-family: 'Avenir Light', 'Arial', sans-serif;
+    font-style: Italic;
+    font-size: 16px;
+    color: white;
+}
+h3 {
+    font-family: 'Avenir Book', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #441f12;
+}
+h4 {
+    font-family: 'Avenir Light', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #441f12;
+}
+p {
+  font-family: 'Avenir Light', 'Arial', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+a {
+    font-family: 'Avenir Light', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #873e23;
+}
+label {
+  font-family: 'Avenir Medium', 'Arial Black', sans-serif;
+  font-style: Italic;
+  font-size: 12px;
+  color: #441f12;
+}
+.filter-option {
+  margin: 25px;
+}
+form {
+    font-family: 'Avenir Light', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #441f12;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 400px;
+  height: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Avenir Light', 'Arial', sans-serif;
+  font-style: Italic;
+  font-size: 18px;
+  color: #441f12;
+}
+button, input[type="button"], input[type="submit"], input[type="order"] {
+    padding: 10px 20px;
+    background-color: #873e23;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #873e23;
+  overflow: hidden;
+}
+/* NAVBAR CONTENT */
+.logo {
+    float: left; /* Float the logo to the left */
+    padding: 15px 20px; /* Add padding to the logo */
+    text-decoration: none;
+}
+.navbar-left {
+  float: left;
+}
+.navbar-right {
+  float: right;
+}
+.navbar-left a, .navbar-right a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Avenir Roman', 'Arial Black', sans-serif;
+}
+/* HOVER/CLICK */
+.navbar-left a:hover {
+  background-color: #f9f9f9;
+  color: #873e23;
+}
+.navbar-left a:active {
+  background-color: #80361d;
+  color: white;
+}
+
+/* this one is for the pic on home */
+.image-container {
+  position: relative;
+  width: 500px; /* Adjust the width of the image */
+}
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.text-container a {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  background-color: none;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Avenir Medium', 'Arial Black', sans-serif;
+}
+.link-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.link-container a {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #bf765b;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Avenir Medium', 'Arial Black', sans-serif;
+}
+.link-container a:hover {
+  background-color: #441f12;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 24px;
+}
+/* FLEXBOX IS HERE */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.flex-item-large {
+  display: flex;
+  border-radius: 24px;
+  background-color: #c39f91;
+}
+.flex-container::-webkit-scrollbar, .flex-item-large::-webkit-scrollbar {
+  width: 0;
+}
+.flex-item-small, .grid-item {
+  height: 300px;
+  width: 144px;
+  border-radius: 24px;
+  background-color: #e7d8d3;
+  text-align: flex;
+  padding: 24px;
+}
+.flex-item-small:hover {
+    width: calc(144px + 20px); /* Increase width by 10% */
+    height: calc(144px + 15px); /* Increase height by 10% */
+}

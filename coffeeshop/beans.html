@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arc Coffee</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="navbar-container"></div>
+  <div class="image-container">
+  <!-- Background image -->
+  <img src="shot1.jpeg" alt="Background Image" style="width: 100vw">
+
+    <!-- Container for the first set of links -->
+    <div class="text-container" style="top: 90%; left: 40%">
+      <a href="#">Carefully curated, from worldwide.</a>
+    </div>
+  </div>
+  <div class="content" style="padding-left: 20px">
+  <h1 style="padding-left:50px">Beans</h1>
+
+    <div class="flex-container" style="padding: 20px">
+
+      <!-- LEFT BLOCK FOR FILTERS -->
+      <div class="flex-item-large" style="height: 500px; overflow-y: auto">
+        <h3 style="margin: 25px; color: #441f12">Filters</h3>
+        <!-- Filter Options -->
+        <div class="filter-option">
+            <label for="category">Process:</label>
+            <select id="category">
+                <option value="all">All Processes</option>
+                <option value="washed">Washed</option>
+                <option value="natural">Natural</option>
+                <option value="anaerobic">Anaerobic</option>
+            </select>
+        </div>
+        <div class="filter-option">
+            <label for="category">Origin:</label>
+            <select id="category">
+                <option value="all">All Origins</option>
+                <option value="colombia">Colombia</option>
+                <option value="ethiopia">Ethiopia</option>
+                <option value="peru">Peru</option>
+                <option value="blend">Blend</option>
+            </select>
+        </div>
+      </div>
+      <!-- RIGHT BLOCK FOR SHOP ITEMS -->
+      <div class="flex-item-large" style="height: 250px; width: 66vw; margin-right: 25px; overflow-y: auto">
+        <!-- SHOP ITEMS -->
+        <div class="flex-container" style="padding: 32px">
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Bean 1</h3>
+            <p>Desc</p>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Bean 2</h3>
+            <p>Desc</p>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Bean 3</h3>
+            <p>Desc</p>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Bean 4</h3>
+            <p>Desc</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

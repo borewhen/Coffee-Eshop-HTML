@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arc Coffee</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="content">
+  <div class="image-container">
+      <!-- Background image -->
+      <img src="spro1.jpeg" alt="Background Image" style="width: 100vw">
+        <!-- Container for the first set of links -->
+        <div class="text-container" style="top: 90%; left: 40%">
+          <a href="#">"Always trying to serve you better."</a>
+        </div>
+  </div>
+</div>
+
+<h1 style="padding-left:50px">Welcome back</h1>
+
+    <div class="flex-container" style="padding: 20px">
+
+      <!-- LEFT BLOCK FOR FILTERS -->
+        <div class="flex-item-large" style="height: 45vh; width: 60vw; overflow-y: auto">
+        <h3 style="padding-left: 36px; padding-top: 24px; font-size: 24px; color: #441f12">Sign up</h3>
+            <form action="SignUpServlet" method="post" style="padding-left: 32px">
+            <input type="text" name="username" placeholder="Username" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="email" name="email" placeholder="Email" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="password" name="password" placeholder="Password" required><br><br>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="firstName" placeholder="First Name" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="shippingAddress" placeholder="Shipping Address" required><br><br>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="cardNo" placeholder="Credit Card Number" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="CVV" placeholder="CVV" required>
+            <p style="font-size: 5px">&nbsp</p>
+            <input type="text" name="DateOfExpiry" placeholder="Date Of Expiry" required><br><br>
+            <p style="font-size: 5px">&nbsp</p>
+            <button type="submit">Sign Up</button>
+            <p style="font-size: 5px">&nbsp</p>
+            <a href="login.html" style="color: #873e23">Already a member? Log in here.</a>
+            <p style="font-size: 24px">&nbsp</p>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

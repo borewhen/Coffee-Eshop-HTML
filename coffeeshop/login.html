@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arc Coffee</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="content">
+  <div class="image-container">
+      <!-- Background image -->
+      <img src="spro1.jpeg" alt="Background Image" style="width: 100vw">
+        <!-- Container for the first set of links -->
+        <div class="text-container" style="top: 90%; left: 40%">
+          <a href="#">"Always trying to serve you better."</a>
+        </div>
+  </div>
+</div>
+
+<h1 style="padding-left:50px">Welcome back</h1>
+
+    <div class="flex-container" style="padding: 20px">
+
+      <div class="flex-item-large" style="height: 45vh; width: 60vw; overflow-y: auto">
+        <h3 style="padding-left: 36px; padding-top: 24px; font-size: 24px; color: #441f12">Login</h3>
+        <form action="LoginServlet" method="post" style="padding-left: 32px; padding-top: 5vh">
+        <input type="text" name="username" placeholder="Username" required>
+        <p style="font-size: 5px">&nbsp</p>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <button type="submit">Log In</button>
+        </form>
+        <p style="font-size: 5px">&nbsp</p>
+        <a href="signup.html" style="padding-right: 6vw; padding-top: 5vh; color: #873e23">Not a member yet? Sign up here.</a>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

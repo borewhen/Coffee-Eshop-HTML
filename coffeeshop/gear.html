@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arc Coffee</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="navbar-container"></div>
+  <div class="image-container">
+  <!-- Background image -->
+  <img src="shot1.jpeg" alt="Background Image" style="width: 100vw">
+
+    <!-- Container for the first set of links -->
+    <div class="text-container" style="top: 90%; left: 40%">
+      <a href="#">Simple, functional.</a>
+    </div>
+  </div>
+  <div class="content" style="padding-left: 20px">
+  <h1 style="padding-left:50px">Gear</h1>
+
+    <div class="flex-container" style="padding: 20px">
+
+      <!-- LEFT BLOCK FOR FILTERS -->
+      <div class="flex-item-large" style="height: 240px; overflow-y: auto">
+        <h3 style="margin: 25px; color: #441f12">Filters</h3>
+        <!-- Filter Options -->
+        <div class="filter-option">
+            <label for="category">Type:</label>
+            <select id="category">
+                <option value="all">All Types</option>
+                <option value="dripper">Dripper</option>
+                <option value="grinder">Grinder</option>
+                <option value="kettle">Kettle</option>
+            </select>
+        </div>
+        <div class="filter-option">
+            <label for="category">Brand:</label>
+            <select id="category">
+                <option value="all">All Brands</option>
+                <option value="electronics">Timemore</option>
+                <option value="kenya">Comandante</option>
+                <option value="hario">Hario</option>
+            </select>
+        </div>
+      </div>
+      <!-- RIGHT BLOCK FOR SHOP ITEMS -->
+      <div class="flex-item-large" style="height: 250px; width: 66vw; margin-right: 25px; overflow-y: auto">
+        <!-- SHOP ITEMS -->
+        <div class="flex-container" style="padding: 32px">
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Gear 1</h3>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Gear 2</h3>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Gear 3</h3>
+          </div>
+          <div class="flex-item-small">
+            <img src="bean.png" alt="bean" width="60px" height="60px" style="margin-top: 20px">
+            <h3>Gear 4</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

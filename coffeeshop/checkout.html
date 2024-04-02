@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="navbar-container"></div>
+
+<h1 style="padding-left:50px">Checkout</h1>
+
+<div class="flex-container" style="padding: 20px">
+  <div class="flex-item-large" style="height: 55vh; width: 60vw; overflow-y: auto">
+    <h3 style="padding-left: 36px; padding-top: 24px; font-size: 24px; color: #441f12">Shipping Address:</h3>
+    <form action="checkoutServlet" method="post" style="padding-left: 32px">
+      <input type="text" id="shippingAddress" name="shippingAddress" placeholder="Enter your shipping address" required><br><br>
+      
+    <h3 style="padding-left: 5px; padding-top: 24px; font-size: 24px; color: #441f12">Payment Information:</h3>
+    <input type="text" id="paymentInfo" name="paymentInfo" placeholder="Enter your payment information" required><br><br>
+      
+      <button type="submit">Complete Purchase</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
